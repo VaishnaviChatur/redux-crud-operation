@@ -32,7 +32,7 @@ const dispatch = useDispatch();
     
         <div>
           <label htmlFor='email' >Email: </label><br/>
-          <input type='text' value={email} name='email' className='col-12 p-2 rounded' onChange={e=> setEmail(e.target.value)} placeholder='enter email'/>
+          <input type='email' value={email} name='email' className='col-12 p-2 rounded' onChange={e=> setEmail(e.target.value)} placeholder='enter email'/>
         </div>
         <button className='btn btn-info mt-3'>Submit</button>
       </form>
